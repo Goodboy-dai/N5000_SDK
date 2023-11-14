@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ConfigParam</class>
+ <widget class="QWidget" name="ConfigParam">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1130</width>
+    <height>460</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1130</width>
+    <height>460</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1130</width>
+    <height>460</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>配置页面</string>
+  </property>
+  <widget class="QLabel" name="label_detectorFig">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>50</y>
+     <width>1085</width>
+     <height>395</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="pic.qrc">:/config/map.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="box_ch1">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>160</y>
+     <width>16</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="box_ch2">
+   <property name="geometry">
+    <rect>
+     <x>312</x>
+     <y>160</y>
+     <width>16</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="box_ch3">
+   <property name="geometry">
+    <rect>
+     <x>406</x>
+     <y>160</y>
+     <width>16</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="box_ch4">
+   <property name="geometry">
+    <rect>
+     <x>508</x>
+     <y>160</y>
+     <width>16</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="box_ch5">
+   <property name="geometry">
+    <rect>
+     <x>604</x>
+     <y>160</y>
+     <width>16</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="box_ch6">
+   <property name="geometry">
+    <rect>
+     <x>706</x>
+     <y>160</y>
+     <width>16</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="box_ch7">
+   <property name="geometry">
+    <rect>
+     <x>799</x>
+     <y>160</y>
+     <width>16</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="box_ch8">
+   <property name="geometry">
+    <rect>
+     <x>901</x>
+     <y>160</y>
+     <width>16</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="box_ch9">
+   <property name="geometry">
+    <rect>
+     <x>950</x>
+     <y>237</y>
+     <width>16</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="box_ch10">
+   <property name="geometry">
+    <rect>
+     <x>902</x>
+     <y>310</y>
+     <width>16</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="box_ch11">
+   <property name="geometry">
+    <rect>
+     <x>803</x>
+     <y>310</y>
+     <width>16</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="box_ch12">
+   <property name="geometry">
+    <rect>
+     <x>707</x>
+     <y>310</y>
+     <width>16</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="box_ch13">
+   <property name="geometry">
+    <rect>
+     <x>608</x>
+     <y>310</y>
+     <width>16</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="box_ch14">
+   <property name="geometry">
+    <rect>
+     <x>509</x>
+     <y>310</y>
+     <width>16</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="box_ch15">
+   <property name="geometry">
+    <rect>
+     <x>409</x>
+     <y>310</y>
+     <width>16</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="box_ch16">
+   <property name="geometry">
+    <rect>
+     <x>312</x>
+     <y>310</y>
+     <width>16</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="box_ch17">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>310</y>
+     <width>16</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="box_ch18">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>237</y>
+     <width>16</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1121</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_9">
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_7">
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_sampleRate">
+        <item>
+         <widget class="QLabel" name="label_sampleRate">
+          <property name="text">
+           <string>采样率：</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="lineEdit_sampleRate"/>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_Hz">
+          <property name="text">
+           <string>Hz</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_sampleDelay">
+        <item>
+         <widget class="QLabel" name="label_sampleDelay">
+          <property name="text">
+           <string>采样延时：</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="lineEdit_sampleDelay"/>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_us">
+          <property name="text">
+           <string>us</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_sampleDuration">
+        <item>
+         <widget class="QLabel" name="label_sampleDuration">
+          <property name="text">
+           <string>采集时间：</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="lineEdit_sampleDuration"/>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_s">
+          <property name="text">
+           <string>s</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_adcGain">
+        <item>
+         <widget class="QLabel" name="label_adcGain">
+          <property name="text">
+           <string>ADC增益：</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="comboBox_adcGain">
+          <item>
+           <property name="text">
+            <string>Rf=1M,G=8</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Rf=1M,G=4</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Rf=1M,G=2</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Rf=1M,G=1</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Rf=10M,G=8</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Rf=10M,G=4</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Rf=10M,G=2</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Rf=10M,G=1</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_mpuAres">
+        <item>
+         <widget class="QLabel" name="label_mpuAres">
+          <property name="text">
+           <string>MPU Ares：</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="comboBox_mpuAres">
+          <item>
+           <property name="text">
+            <string>2 Gs</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>4 Gs</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>8 Gs</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>16 Gs</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_mpuGres">
+        <item>
+         <widget class="QLabel" name="label_mpuGres">
+          <property name="text">
+           <string>MPU Gres：</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="comboBox_mpuGres">
+          <item>
+           <property name="text">
+            <string>250 DPS</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>500 DPS</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>1000 DPS</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>2000 DPS</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <spacer name="horizontalSpacer">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>250</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_8">
+      <item>
+       <widget class="QPushButton" name="pushButton_confirm">
+        <property name="text">
+         <string>确定</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_cancel">
+        <property name="text">
+         <string>取消</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>50</y>
+     <width>41</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 0, 0);
+font: 48pt &quot;Microsoft YaHei UI&quot;;</string>
+   </property>
+   <property name="text">
+    <string>L</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>1064</x>
+     <y>50</y>
+     <width>41</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 0, 0);
+font: 48pt &quot;Microsoft YaHei UI&quot;;</string>
+   </property>
+   <property name="text">
+    <string>R</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="pic.qrc"/>
+ </resources>
+ <connections/>
+</ui>

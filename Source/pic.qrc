@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file>config/LogoSJTU.png</file>
+        <file>config/BicaslLogo.png</file>
+        <file>config/map.png</file>
+        <file>config/wearing.jpg</file>
+        <file>config/LogoSJTUEeng.png</file>
+        <file>config/counting.png</file>
+        <file>config/structure.png</file>
+    </qresource>
+</RCC>

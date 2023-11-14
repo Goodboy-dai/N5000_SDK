@@ -1,0 +1,6 @@
+sample_rate, 50,
+sample_delay, 500,
+sample_time, 600,
+luminous_intensity, 100,
+probe_Type, adult,
+channel, H1, G1, H2, G2, A2,B2, A3, B3, C3, D3, C4, D4, E4, F4, E5, F5, E6, F6, E7, F7, E8, F8, C8, D8, C9, D9, A9, B9, A10, B10, H10, G10, H11, G11, H12, G12,

@@ -1,0 +1,9 @@
+word_num	3
+ready_timer	5
+count_timer1	30
+count_timer2	30
+sentence1_timer	20
+sentence2_timer	20
+sentence3_timer	20
+intro	下面在两分钟内某类事物的名称。比如说“水果”，你要写“苹果、梨”等等。要尽可能地多写，但不能重复！听到给出的词语后，立即开始写。
+sen_intro	请在此文本框内输入属于此类的事物
