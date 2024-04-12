@@ -4,9 +4,6 @@
 #include <QMainWindow>
 #include "protocol.h"
 #include <QTimer>
-#include <QChartView>
-#include <QValueAxis>
-#include <QLineSeries>
 #include "configparam.h"
 #include <QHBoxLayout>
 #include <QTableWidget>

@@ -3,11 +3,7 @@
 #include "protocol.h"
 #include <ctime> //获取系统时间
 #include <QTimer>
-#include <QChartView>
-#include <QValueAxis>
-#include <QLineSeries>
 #include "configparam.h"
-#include <QOpenGLWidget>
 #include "devtable.h"
 #include <iostream>
 
